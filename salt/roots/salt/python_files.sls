@@ -14,5 +14,6 @@
         - user: vagrant
         - group: vagrant
         - text:
+            - export LD_LIBRARY_PATH=/usr/local/lib
             - source ~/virtualenv/bin/activate
             - cd /vagrant/

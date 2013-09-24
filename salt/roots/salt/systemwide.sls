@@ -2,6 +2,9 @@ syswide_packages:
     pkg.installed:
         - names:
             - httpd
-            - mod_wsgi
+            - httpd-devel
             - git
+            - vim-common
+            - vim-enhanced
+            - vim-minimal
 

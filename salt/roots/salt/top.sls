@@ -12,4 +12,5 @@ base:
         - systemwide
         - services
         - python_files
-        - python
+        - python_install
+        - mod_wsgi
